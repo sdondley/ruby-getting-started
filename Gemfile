@@ -1,6 +1,9 @@
 source 'https://rubygems.org'
 ruby '>= 2.3.5', '< 2.8'
 
+# added from heroku tutorial
+gem 'cowsay'
+
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.2.0'
 # Use postgresql as the database for Active Record
@@ -38,4 +41,3 @@ gem 'puma'
 
 # Use debugger
 # gem 'debugger', group: [:development, :test]
-
